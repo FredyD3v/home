@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Main container for quotes & buttons -->
+    <div class="container" id="container">
+
+        <div class="quote-container" id="quote-container">
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote">This is where the quote will be</span>
+        </div>
+
+        <div class="author-container" id="author-container">
+            <span class="author" id="author">Quote author</span>
+        </div>
+
+        <!-- button container -->
+        <div class="button-container" id="button-container">
+            <button class="button twitter" id="twitter" title="Tweet this"><i class="fab fa-twitter"></i></button>
+            <button class="button" id="new-quote">New Quote</button>
+        </div>
+
+    </div>
+
+    <div class="loader" id="loader"></div>
+
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
